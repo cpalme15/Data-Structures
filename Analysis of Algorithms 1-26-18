@@ -1,0 +1,48 @@
+pseudo code.
+
+Algorithm method (arg1,arg2,.....)
+   Input: describe input
+   Ouput: describe output
+   body
+      Assignment statement
+        variable<--- value
+      return value
+         return val;
+      call method 
+        method(arg,...)
+        or
+        ret<---method(arg,...)
+      Equality check
+        if a=b
+      Array 
+        A[i]
+      Flow control- pay to identation 
+      if exp then 
+         //code
+         
+      else
+        //code
+      while loop:
+      while exp do
+        //code
+      for i<-1 to n do(# from 1 to n) inclusive 
+          //code
+      repeat 
+        //code
+      until exp
+      
+      find the max in array A of n items
+      
+      
+      method(A)
+        Input: an array of n size containing items
+        Output: returns the largest item in the array
+        max<-A[0] -1
+        for i<-1 to A.length-1 - 1 n-1
+            if A[i]>max then   - 1 n-1
+               max<-A[i]       - 1 best case 0 worst n-1   
+        return max             - 1
+       
+        total best : 2+2n-2 --> 2n--> O^n  
+        total worst: 2+3n-3--> 3n-1-->O^n
+        
